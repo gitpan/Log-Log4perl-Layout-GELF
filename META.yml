@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Log-Log4perl-Layout-GELF
-version:            0.01
+version:            0.02
 abstract:           Log4perl for graylog2
 author:
     - Jason Pope <cowholio4@gmail.com>
@@ -11,7 +11,8 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Test::More:  0
+    Log::Log4perl:  0
+    Test::More:     0
 no_index:
     directory:
         - t
