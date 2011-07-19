@@ -8,3 +8,4 @@ t/01-log_to_graylog.t
 t/manifest.t
 t/pod-coverage.t
 t/pod.t
+META.yml                                 Module meta-data (added by MakeMaker)
